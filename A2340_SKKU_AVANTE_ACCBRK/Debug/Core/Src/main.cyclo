@@ -1,0 +1,13 @@
+../Core/Src/main.c:96:5:main	2
+../Core/Src/main.c:187:6:SystemClock_Config	3
+../Core/Src/main.c:233:13:MX_FDCAN1_Init	5
+../Core/Src/main.c:297:13:MX_FDCAN2_Init	5
+../Core/Src/main.c:361:13:MX_FDCAN3_Init	6
+../Core/Src/main.c:430:13:MX_USART1_UART_Init	5
+../Core/Src/main.c:479:13:MX_DMA_Init	1
+../Core/Src/main.c:501:13:MX_GPIO_Init	1
+../Core/Src/main.c:527:13:StartTreezeTask_1	1
+../Core/Src/main.c:545:13:StartTreezeTask_2	1
+../Core/Src/main.c:563:13:StartTreezeTask_3	1
+../Core/Src/main.c:582:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:599:6:Error_Handler	1

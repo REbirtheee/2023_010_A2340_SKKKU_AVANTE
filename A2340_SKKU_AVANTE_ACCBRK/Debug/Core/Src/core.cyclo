@@ -1,0 +1,4 @@
+../Core/Src/core.c:22:6:StartTreezeTask_1	1
+../Core/Src/core.c:38:6:StartTreezeTask_2	1
+../Core/Src/core.c:53:6:StartTreezeTask_3	1
+../Core/Src/core.c:71:6:TEST_TASK	2

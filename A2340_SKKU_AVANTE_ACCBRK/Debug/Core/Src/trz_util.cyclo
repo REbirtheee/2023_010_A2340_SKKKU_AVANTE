@@ -1,0 +1,3 @@
+../Core/Src/trz_util.c:21:6:SequenceTimer	2
+../Core/Src/trz_util.c:28:6:FlagMakeFalse	1
+../Core/Src/trz_util.c:32:6:FlagMakeTrue	1

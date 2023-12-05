@@ -1,0 +1,8 @@
+../Core/Src/can.c:20:6:HAL_FDCAN_RxFifo0Callback	3
+../Core/Src/can.c:43:6:HAL_FDCAN_RxFifo1Callback	2
+../Core/Src/can.c:60:6:TXCAN1	1
+../Core/Src/can.c:70:6:TXCAN2	1
+../Core/Src/can.c:80:6:TXCAN3	1
+../Core/Src/can.c:94:6:RXCAN1	5
+../Core/Src/can.c:131:6:RXCAN2	11
+../Core/Src/can.c:167:6:RXCAN3	2

@@ -1,0 +1,2 @@
+../Core/Src/uart.c:22:6:HAL_UARTEx_RxEventCallback	16	static
+../Core/Src/uart.c:37:6:HAL_UART_TxCpltCallback	16	static
