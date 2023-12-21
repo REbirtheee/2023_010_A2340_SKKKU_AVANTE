@@ -36,10 +36,10 @@
 ../Core/Src/motor.c:895:6:MotorStart	1
 ../Core/Src/motor.c:900:6:T_MotorStart	1
 ../Core/Src/motor.c:905:6:MotorCommandConverter	1
-../Core/Src/motor.c:962:6:MotorInfoConverter	1
-../Core/Src/motor.c:1001:6:MotorInitCommand	1
-../Core/Src/motor.c:1012:6:MotorSetCommand	2
-../Core/Src/motor.c:1028:6:MotorControlCommand	2
-../Core/Src/motor.c:1044:6:MotorInofrmation	1
-../Core/Src/motor.c:1056:6:CanErrorCheck	5
-../Core/Src/motor.c:1080:6:MotorSequnceTimer	2
+../Core/Src/motor.c:964:6:MotorInfoConverter	1
+../Core/Src/motor.c:1003:6:MotorInitCommand	1
+../Core/Src/motor.c:1014:6:MotorSetCommand	2
+../Core/Src/motor.c:1030:6:MotorControlCommand	2
+../Core/Src/motor.c:1046:6:MotorInofrmation	1
+../Core/Src/motor.c:1058:6:CanErrorCheck	5
+../Core/Src/motor.c:1082:6:MotorSequnceTimer	2

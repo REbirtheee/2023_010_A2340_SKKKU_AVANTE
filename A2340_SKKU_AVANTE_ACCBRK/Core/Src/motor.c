@@ -933,7 +933,8 @@ void MotorCommandConverter(struct ControlCommand *cmd)
 	cmd->pos_vel[5] = cmd->vel_int32 >> 8;
 	cmd->pos_vel[4] = cmd->vel_int32;
 
-	cmd->acc_int32 = (cmd->user[5] << 8) | cmd->user[4];
+	//cmd->acc_int32 = (cmd->user[5] << 8) | cmd->user[4]; //NOT USED
+	cmd->acc_int32 = 3000;
 	cmd->acc_float = (float)cmd->acc_int32 * _deg_to_rpm;
 	cmd->acc_float = cmd->acc_float * _gear_ratio;
 	cmd->acc_float = cmd->acc_float * _rpm_to_pulse;
@@ -944,7 +945,8 @@ void MotorCommandConverter(struct ControlCommand *cmd)
 	cmd->acc_dec[1] = cmd->acc_int32 >> 8;
 	cmd->acc_dec[0] = cmd->acc_int32;
 
-	cmd->dec_int32 = (cmd->user[7] << 8) | cmd->user[6];
+	//cmd->dec_int32 = (cmd->user[7] << 8) | cmd->user[6]; //NOT USED
+	cmd->dec_int32 = 3000;
 	cmd->dec_float = (float)cmd->dec_int32 * _deg_to_rpm;
 	cmd->dec_float = cmd->dec_float * _gear_ratio;
 	cmd->dec_float = cmd->dec_float * _rpm_to_pulse;

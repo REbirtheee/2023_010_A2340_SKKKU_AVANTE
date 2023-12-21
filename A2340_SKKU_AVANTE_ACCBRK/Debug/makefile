@@ -64,8 +64,8 @@ all: main-build
 main-build: A2340_SKKU_AVANTE_ACCBRK.elf secondary-outputs
 
 # Tool invocations
-A2340_SKKU_AVANTE_ACCBRK.elf A2340_SKKU_AVANTE_ACCBRK.map: $(OBJS) $(USER_OBJS) C:\Users\ChoiHanmin\STM32CubeIDE\workspace_1.13.2\A2340_SKKU_AVANTE_ACCBRK\STM32G474VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "A2340_SKKU_AVANTE_ACCBRK.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\ChoiHanmin\STM32CubeIDE\workspace_1.13.2\A2340_SKKU_AVANTE_ACCBRK\STM32G474VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="A2340_SKKU_AVANTE_ACCBRK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+A2340_SKKU_AVANTE_ACCBRK.elf A2340_SKKU_AVANTE_ACCBRK.map: $(OBJS) $(USER_OBJS) C:\Users\ChoiHanmin\Documents\skku_avante_acc_brk\A2340_SKKU_AVANTE_ACCBRK\STM32G474VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "A2340_SKKU_AVANTE_ACCBRK.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\ChoiHanmin\Documents\skku_avante_acc_brk\A2340_SKKU_AVANTE_ACCBRK\STM32G474VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="A2340_SKKU_AVANTE_ACCBRK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

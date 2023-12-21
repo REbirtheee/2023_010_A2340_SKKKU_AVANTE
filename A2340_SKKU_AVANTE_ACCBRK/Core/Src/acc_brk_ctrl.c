@@ -73,7 +73,7 @@ void Accel_Command_Info_Data_Parsing()
 		acc.apu_no_error_cnt ++;
 	}
 
-	if(acc.apu_no_error_cnt > 100) {
+	if(acc.apu_no_error_cnt > 200) {
 
 		acc.raw_data_0x610[5] = acc.raw_data_0x450[4];
 		acc.raw_data_0x610[6] = acc.raw_data_0x450[5];
@@ -222,8 +222,9 @@ void Position_Control_Mode_On()
 {
 	int16_t steer_pos_command;
 	uint16_t steer_vel_command;
-	uint16_t steer_acc_command = 500;
-	uint16_t steer_dec_command = 500;
+
+	uint16_t steer_acc_command = 60000;
+	uint16_t steer_dec_command = 60000;
 
 	/* Motor Position Mode Command */
 	motor_cmd.status[4] = 0x01;
